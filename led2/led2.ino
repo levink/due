@@ -3,7 +3,7 @@ int led[3] = {2,3,4};
 long lastTime = 0;
 long interval = 1000;
 int current = 0;
-void setup() {
+void setup() { 
   pinMode(led[0], OUTPUT);
   pinMode(led[1], OUTPUT);
   pinMode(led[2], OUTPUT);
