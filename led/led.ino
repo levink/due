@@ -9,10 +9,9 @@ void setup() {
 void loop() {
   for(int i=0; i < 3; i++)
   {
-    if (i == current) digitalWrite(led[i], HIGH);
-    else digitalWrite(led[i], LOW);
+    if (i == current) analogWrite(led[i], 0);
+    else analogWrite(led[i], 255);
   }
   current = (current + 1 ) %3;
   delay(1000);
 }
-
