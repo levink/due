@@ -143,7 +143,7 @@ void computeCos()
 uint32_t last = millis();
 
 bool once = true;
-uint delayTime = 100000; //0.1 sec
+uint delayTime = 10000; //0.1 sec
 void loop() {
 	delayMicroseconds(delayTime);
 	
